@@ -1,13 +1,17 @@
 package com.cheng.market.product;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
+
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class ProductApplicationTests {
+
+@SpringBootTest(classes = ProductApplicationTests.class)
+public class ProductApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void Test1(){
+		System.out.println("hello");
 	}
 
 }
